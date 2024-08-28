@@ -1,0 +1,42 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 4.5rem;
+  margin-bottom: 9rem;
+
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 20.625rem);
+    gap: 1.5rem;
+    justify-content: center;
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      width: 20.625rem;
+      height: 17.5rem;
+      background: var(--gray-300);
+      border-radius: 12px;
+      padding: 0.875rem;
+
+      img {
+        width: 19.125rem;
+        height: 9.75rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+      }
+
+      h1 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font: var(--text-sm);
+        color: var(--gray-500);
+      }
+    }
+  }
+}

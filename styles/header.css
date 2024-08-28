@@ -37,6 +37,16 @@
           color: var(--red);
         }
       }
+
+      h1 {
+        font: var(--title-lg);
+      }
+
+      h2 {
+        margin-top: 1rem;
+        font: var(--text-sm);
+        color: var(--gray-400);
+      }
     }
 
     .tags-wrapper {
@@ -50,6 +60,9 @@
       display: flex;
       flex-direction: row;
       align-items: center;
+
+      font: var(--text-md);
+      color: var(--gray-500);
 
       padding: 0.5rem 1rem;
       background: var(--gray-300);

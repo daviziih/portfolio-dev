@@ -6,6 +6,7 @@
 
 body {
   color: var(--gray-500);
+  background: var(--gray-200);
 }
 
 :root {
@@ -17,15 +18,42 @@ body {
   --gray-600: #e2e4e9;
 
   --red: #e3646e;
+  --purple: #bb72e9;
 
   --title-lg: 800 3.5rem/120% 'Asap', sans-serif;
   --title-md: 800 1.5rem/120% 'Asap', sans-serif;
   --title-sm: 800 1rem/120% 'Asap', sans-serif;
 
   --subtitle: 300 1.25rem/120% 'Inconsolata', sans-serif;
+
+  --text-md: 300 1rem/140% 'Maven Pro', sans-serif;
+  --text-sm: 300 0.875rem/140% 'Maven Pro', sans-serif;
 }
 
 h1 {
   font: var(--title-md);
   color: var(--gray-600);
+}
+
+.container {
+  margin-left: 7.5rem;
+  margin-right: 7.5rem;
+}
+
+section {
+  width: 85.375rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3.5rem;
+
+  p {
+    color: var(--red);
+    font: var(--subtitle);
+  }
+
+  h1 {
+    font: var(--title-md);
+  }
 }

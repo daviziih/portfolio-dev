@@ -1,0 +1,36 @@
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5.5rem 0 7.5rem;
+
+  background: var(--gray-100);
+
+  .service-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 17.5rem);
+    gap: 1.5rem;
+
+    .service {
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 1.25rem;
+
+      img {
+        height: 36px;
+        width: 36px;
+      }
+
+      h1 {
+        margin-top: 1rem;
+        font: var(--title-sm);
+      }
+
+      p {
+        margin-top: 0.2rem;
+        font: var(--text-sm);
+      }
+    }
+  }
+}
