@@ -9,6 +9,11 @@ body {
   background: var(--gray-200);
 }
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 :root {
   --gray-100: #0d0e11;
   --gray-200: #16181d;
