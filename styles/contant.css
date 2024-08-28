@@ -36,6 +36,14 @@
         font: var(--text-md);
         color: var(--gray-500);
       }
+
+      &:hover {
+        border: 1px solid var(--blue);
+
+        svg {
+          stroke: var(--blue);
+        }
+      }
     }
   }
 }

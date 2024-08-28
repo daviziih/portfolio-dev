@@ -37,6 +37,10 @@
         font: var(--text-sm);
         color: var(--gray-500);
       }
+
+      &:hover {
+        border: 1px solid var(--gray-400);
+      }
     }
   }
 }
